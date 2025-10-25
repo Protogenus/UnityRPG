@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
     [Header("Enemy Stats")]
     public float health = 50f;
     public float damage = 10f;
-    public float moveSpeed = 3f;
+    public float moveSpeed = 5f;
     public float contactDamageRate = 0.5f; // seconds between damage ticks
 
     private Transform player;
